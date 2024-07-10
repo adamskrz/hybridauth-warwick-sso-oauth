@@ -1,0 +1,9 @@
+{
+    "name": "adamskrz/hybridauth-warwick-sso-oauth",
+    "description": "Warwick SSO OAuth provider for Hybridauth",
+    "type": "project",
+    "require": {
+        "hybridauth/hybridauth": "^3."
+    },
+    "license": "MIT"
+}

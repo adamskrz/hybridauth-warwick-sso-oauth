@@ -102,6 +102,8 @@ class WarwickOAuth extends OAuth1
 
         $userProfile->identifier = $attributes->get('id');
         $userProfile->displayName = $attributes->get('name');
+        $userProfile->firstName = $attributes->get('firstname');
+        $userProfile->lastName = $attributes->get('lastname');
         $userProfile->description = $attributes->get('title');
         $userProfile->email = $attributes->get('email');
         $userProfile->emailVerified = $attributes->get('email');
